@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from "./Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home.js';
+import Footer from './Footer/Footer';
 // import Header from "./Header";
 // import Products from './Products/Products';
 
@@ -13,6 +14,7 @@ function App() {
       <>
       <Navbar />
       <Home />
+      <Footer />
       </>
       <Router>
         <Routes>
