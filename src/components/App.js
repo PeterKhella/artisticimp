@@ -8,19 +8,20 @@ import Footer from './Footer/Footer';
 // import Header from "./Header";
 // import Products from './Products/Products';
 
-function App() {
+function App(){
   return (
     <div className="App"> 
       <>
       <Navbar />
       <Home />
-      <Footer />
       </>
-      <Router>
+      {/* <Router>
         <Routes>
-          <Route exact path='/' component={Home} />
+        <Route exact path='/' element={<Home />} />
+        <Route path='/Footer' element={<Footer />} />
         </Routes>
-      </Router> 
+      </Router> */}
+      <Footer />
     </div>
 
   );
